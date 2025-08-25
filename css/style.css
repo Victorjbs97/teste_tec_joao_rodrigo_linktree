@@ -9,7 +9,7 @@
 }
 
 main{
-    background: linear-gradient(-25deg,rgb(0, 26, 255),rgb(255, 5, 242));
+    background: linear-gradient(-35deg,rgb(0, 26, 255),rgb(255, 5, 242));
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
@@ -31,7 +31,8 @@ h1{
 h2{
     color: white;
     text-align: center;
-    margin-bottom: 40px;
+    margin: 40px;
+    font-size: 1.2em;
 }
 #list{
     display: grid;
@@ -43,6 +44,14 @@ h2{
 footer{
     color: white;
     margin-top: 200px;
+}
+.option{
+    background-color: aliceblue;
+}
+.option a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 
 
