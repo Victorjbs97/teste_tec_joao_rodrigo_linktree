@@ -9,8 +9,8 @@
 }
 
 main{
-    background: linear-gradient(-35deg,rgb(0, 26, 255),rgb(255, 5, 242));
-    padding: 10px;
+    background: linear-gradient(-35deg,rgb(0, 26, 255),rgb(219, 6, 209));
+    padding: 30px;
     display: grid;
     grid-template-columns: 1fr;
     place-items: start center;
@@ -19,6 +19,7 @@ main{
 }
 figure img{
     border-radius: 50%;
+    box-shadow: 2px 2px 15px;
 }
 h1{
     font-family: "Anton", sans-serif;
@@ -31,8 +32,12 @@ h1{
 h2{
     color: white;
     text-align: center;
-    margin: 40px;
     font-size: 1.2em;
+    margin-bottom: 30px;
+}
+footer h3{
+    font-size: 1em;
+    color: rgba(250, 235, 215, 0.774);
 }
 #list{
     display: grid;
@@ -43,10 +48,14 @@ h2{
 
 footer{
     color: white;
-    margin-top: 200px;
+    margin-top: 40px;
+    
 }
 .option{
     background-color: aliceblue;
+}
+.option:hover{
+    background-color: rgba(240, 248, 255, 0.651);
 }
 .option a {
     text-decoration: none;
