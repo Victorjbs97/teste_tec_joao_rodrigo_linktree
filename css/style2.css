@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+header{
+    padding: 20px;
+}
+#sec_inicial{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+    padding: 20px;
+}
