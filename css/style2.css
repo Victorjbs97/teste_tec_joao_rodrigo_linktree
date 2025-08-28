@@ -20,6 +20,11 @@ header{
     
 
 }
+section{
+    padding: 10px;
+    display: grid;
+
+}
 header nav ul{
     background-color: cadetblue;
     list-style: none;
@@ -43,6 +48,44 @@ section{
 #btn_fasciculo{
     position: fixed;
     bottom: 20px;
+    left: 10px;
     z-index: 1000;
+    background-color: #50b7e8;
+}
+#btn_fasciculo {
 
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+#tabela{
+    font-size: small;
+    overflow-x: auto;
+}
+h3{
+    font-size:small ;
+}
+tr a{
+    color: rgb(202, 8, 209);
+    font-size: small;
+}
+table, th, td {
+  border: 1px solid #50b7e8;
+
+}
+th{
+    background-color: #50b7e8;
+    height: 40px;
+    color: white;
+    padding: 10px;
+}
+td:hover{
+    background-color: #50b8e8d8;
+    color: white;
+}
+td a:hover{
+    color: white;
 }
