@@ -5,13 +5,37 @@
 }
 body{
     height: 100vh;
+    
 }
 header{
-    padding: 20px;
+    padding: 10px;
+    background-color: #50b7e8;
+    position: fixed;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    z-index: 1000;
+    
+
+}
+header nav ul{
+    background-color: cadetblue;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+
 }
 #sec_inicial{
     display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 10px;
     padding: 20px;
+    
+}
+section{
+    padding-top: 60px;
 }
