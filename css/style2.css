@@ -24,8 +24,11 @@ section{
     display: grid;
 
 }
+#logo{
+    font-size: 1.5em;
+    font-weight: 600;
+}
 header nav ul{
-    background-color: cadetblue;
     list-style: none;
     display: flex;
     gap: 25px;
